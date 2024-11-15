@@ -3,7 +3,7 @@
 ---
 |Nama  | NRP |
 |--|--|
-| Johanes Edward Nathanael | 5027231057 |
+| Johanes Edward Nathanael | 5027231067 |
 | Rafika Az Zahra Kusumastuti | 5027231050 |
 
 ## Daftar Isi
