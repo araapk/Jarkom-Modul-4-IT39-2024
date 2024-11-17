@@ -24,6 +24,34 @@ Cara subnetting:
 3. dst.
 
 ![langkah1](https://github.com/user-attachments/assets/ff50c0c3-1287-4a8a-b0a4-a271e4e259d9)
+
+### Rute
+|**Nama Subnet**|**Rute**	                                                                                    |**Jumlah IP**|**Netmask**|
+|---------------|---------------------------------------------------------------------------------------------------|-------------|-----------|
+|A1	        |Hololive > Holo-EN > Holo-Myth > HoloPromise > Holo-Council > Switch4 > Kronil_Mumel, Bae_Fauna    |	62	  |/26        |
+|A2	        |Hololive > Holo-EN > Holo-Myth > HoloPromise > Holo-Council, Project-Hope                          |	3	  |/29        |
+|A3	        |Hololive > Holo-EN > Holo-Myth > HoloPromise > Project-Hope > Irya	                            |3	          |/29        |
+|A4	        |Hololive > Holo-EN > Holo-Myth > Switch2 > Gura_Ame_Ina, Kiara_Calli	                            |503	  |/23        |
+|A5	        |Hololive > Holo-EN > Holo-Myth > Swith2, HoloPromise	                                            |2	          |/30        |
+|A6    	        |Hololive > Holo-EN > HoloAdvent	                                                            |2	          |/30        |
+|A7	        |Hololive > Holo-EN > HoloAdvent > Switch5 > FuwaMoco, Shiori_Nerisaa, Biboo	                    |28	          |/27        |
+|A8	        |Hololive > Holo-EN > HoloAdvent, Holo-Myth	                                                    |2	          |/30        |
+|A9	        |Hololive > Holo-ID > AREA15, holoro, holoh3ro	                                                    |2	          |/30        |
+|A10	        |Hololive > Holo-ID > AREA15	                                                                    |2	          |/30        |
+|A11	        |Hololive > Holo-ID > AREA15 > Switch6 > Iofi, Moona, Risu	                                    |661	  |/22        |
+|A12	        |Hololive > Holo-ID > holoro	                                                                    |2	          |/30        |
+|A13	        |Hololive > Holo-ID > holoro > Switch7 > Ollie, Anya, Reine	                                    |34	          |/26        |
+|A14	        |Hololive > Holo-ID > holoh3ro	                                                                    |2	          |/30        |
+|A15	        |Hololive > Holo-ID > holoh3ro > Switch8 > Zeta, Kaela, Kobo	                                    |299	  |/23        |
+|A16	        |Hololive > Holo-JP	                                                                            |2	          |/30        |
+|A17	        |Hololive > Holo-JP > Switch1 > DEV_IS, GEN:0	                                                    |3	          |/29        |
+|A18	        |Hololive > Holo-JP > Switch1 > DEV_IS > Re:GLOSS > Ririka_Raden, Ao, Hajime_Kanade	            |14	          |/28        |
+|A19	        |Hololive > Holo-JP > Switch1 > GEN:0 > Switch3 > GEN:1, MiComet, Sora_Robo_AZKiEN	            |2045	  |/21        |
+|A20	        |Hololive > Holo-JP > Switch1 > GEN:0 > Switch3 > GEN:1 > Member > FBK_Matsuri, Aki_Hachama	    |470	  |/23        |
+|A21	        |Hololive > Holo-JP > Switch1 > GEN:0 > Switch3 > GEN:1 > GAMERS	                            |2	          |/30        |
+|A22	        |Hololive > Holo-JP > Switch1 > GEN:0 > Switch3 > GEN:1 > GAMERS > Fubuki > Korone, Okayu, Mio	    |120	  |/25        |
+|Total		                                                                                                    |4263	  |/19        |
+
 ![langkah2](https://github.com/user-attachments/assets/759528f4-41d5-4683-897d-771b85296bd9)
 ![langkah3](https://github.com/user-attachments/assets/6409a3ea-0cd3-487a-a381-f87529d638cf)
 ![langkah4](https://github.com/user-attachments/assets/994fb5c0-0d65-4e3f-94d1-b48b41c0fb00)
@@ -33,6 +61,9 @@ Cara subnetting:
 ![langkah8](https://github.com/user-attachments/assets/b068a89b-d249-4f3a-b8fb-e1a4f482acfa)
 ![langkah9](https://github.com/user-attachments/assets/6539a14e-7b86-4cc3-b493-d1e14249c26e)
 ![langkah10 drawio](https://github.com/user-attachments/assets/befa40a9-0139-43d1-bee3-4694c9524ab9)
+
+### Penggabungan IP - CIDR
+
 
 ## Tree
 Cara buat tree:
