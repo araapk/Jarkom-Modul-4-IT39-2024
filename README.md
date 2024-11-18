@@ -50,7 +50,7 @@ Cara subnetting:
 |A20	        |Hololive > Holo-JP > Switch1 > GEN:0 > Switch3 > GEN:1 > Member > FBK_Matsuri, Aki_Hachama	    |470	  |/23        |
 |A21	        |Hololive > Holo-JP > Switch1 > GEN:0 > Switch3 > GEN:1 > GAMERS	                            |2	          |/30        |
 |A22	        |Hololive > Holo-JP > Switch1 > GEN:0 > Switch3 > GEN:1 > GAMERS > Fubuki > Korone, Okayu, Mio	    |120	  |/25        |
-|Total		                                                                                                    |4263	  |/19        |
+|Total		|                                                                                                   |4263	  |/19        |
 
 ![langkah2](https://github.com/user-attachments/assets/759528f4-41d5-4683-897d-771b85296bd9)
 ![langkah3](https://github.com/user-attachments/assets/6409a3ea-0cd3-487a-a381-f87529d638cf)
@@ -63,7 +63,14 @@ Cara subnetting:
 ![langkah10 drawio](https://github.com/user-attachments/assets/befa40a9-0139-43d1-bee3-4694c9524ab9)
 
 ### Penggabungan IP - CIDR
+Cara menghitung:
+1. Lihat subnet gabungan, kemudian tulis subnet tersebut beserta netmasknya
+2. Netmask akhir = lihat dari masing-masing netmask, kemudian cari yang paling kecil dan kurangi dengan 1
+3. Poin nomor 2, kenapa dikurangi 1 karena tujuan penggabungan ip itu untuk menaikkan subnet mask ke 1 tingkat diatasnya
 
+![Screenshot 2024-11-19 034254](https://github.com/user-attachments/assets/2c837761-dc40-4d3b-8658-55d96c744e73)
+![Screenshot 2024-11-19 034308](https://github.com/user-attachments/assets/285433ae-887d-41f3-96ad-800e6c626bc7)
+![Screenshot 2024-11-19 034317](https://github.com/user-attachments/assets/f00e0c5d-43b3-4651-8b59-f9d8c8e180af)
 
 ## Tree
 Cara buat tree:
@@ -74,6 +81,12 @@ Cara buat tree:
 ![subnetting_tree drawio](https://github.com/user-attachments/assets/d4ad3f1e-7e06-48fa-ab67-6c7fbe958cfa)
 
 ### Pembagian IP - CIDR
+Cara menghitung:
+1. Lihat ip di tree dan itu sebagai network id
+2. Sesuaikan netmask pada subnet mask di tree
+3. Broadcast = network id + wildcard
+4. Range ip = network id ditambah 1 sd broadcast dikurangi 1
+
 | **Subnet** |  **Network ID**  |   **Netmask**   |   **Broadcast**  |           **Range IP**            |
 |------------|------------------|-----------------|------------------|-----------------------------------|
 |     A1     |   192.236.194.0  | 255.255.255.192 |  192.236.194.63  |  192.236.194.1 - 192.236.194.62   |
